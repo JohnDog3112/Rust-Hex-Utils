@@ -1,6 +1,6 @@
-use tiny_skia::{Path, PathBuilder};
+use tiny_skia::{Path, PathBuilder, Pixmap, Paint, Stroke, LineCap, Transform, FillRule, Color, LinearGradient, SpreadMode, GradientStop};
 
-use crate::{coord::Coord, direction::Direction, angle::Angle, hex_coord::HexCoord, dynamic_list::DynamicList};
+use crate::{coord::Coord, direction::Direction, angle::Angle, hex_coord::HexCoord, dynamic_list::DynamicList, draw_options::{Intersections, Lines, Point}};
 
 #[derive(Debug, Clone)]
 pub struct Pattern {
@@ -68,17 +68,15 @@ impl Pattern {
         }
     }
 
+       
     
-    pub fn generate_path(&self, origin: (i32, i32), line_length: f32) -> Path{
+    pub fn generate_path(&self, origin: HexCoord, line_length: f32) -> Path{
         let mut pb = PathBuilder::new();
-        
-        let origin = Coord::from(origin);
 
-        let hex_origin = HexCoord::from(origin) * line_length;
-        pb.move_to(hex_origin.0, hex_origin.1);
+        pb.move_to(origin.0, origin.1);
 
         for line in &self.path {
-            let current = HexCoord::from(*line + origin) * line_length;
+            let current = HexCoord::from(*line) * line_length + origin;
             
             pb.line_to(current.0, current.1);
         }
@@ -86,25 +84,135 @@ impl Pattern {
         pb.finish().unwrap()
     }
 
-    pub fn generate_distorted_path(&self, origin: (i32, i32), line_length: f32) -> Path{
-        let mut pb = PathBuilder::new();
-
-        //println!("{:?}", self);
-        //println!("Origin: {:?}", origin);
-
-        let origin = ((origin.0 as f32) * line_length, origin.1 as f32 * line_length);
-        pb.move_to(origin.0, origin.1);
-
-        for line in &self.path {
-            let current_x = origin.0 as f32 + (line.0 as f32 ) * line_length;
-            let current_y = origin.1 as f32 + line.1 as f32 * line_length;
-            
-            pb.line_to(current_x, current_y);
+    pub fn draw_pattern(&self, pixmap: &mut Pixmap, origin: HexCoord, line_length: f32, line_thickness: f32, line_options: &Lines, point_options: &Intersections) {
+        let mut paint = Paint::default();
+        let mut stroke = Stroke::default();
+        stroke.width = line_thickness;
+        stroke.line_cap = LineCap::Round;
+        
+        match line_options {
+            Lines::Monocolor(color) => {        
+                paint.set_color(*color);
+                let path = self.generate_path(origin, line_length);
+                pixmap.stroke_path(&path, &paint, &stroke, Transform::identity(), None);
+            },
+            Lines::Gradient(start_color, end_color) => {
+                self.draw_gradient_lines(pixmap, &stroke, origin, line_length, *start_color,*end_color);
+            },
+            Lines::SegmentColors(_) => todo!(),
+            Lines::MultiGradient(_) => todo!(),
         }
 
-        pb.finish().unwrap()
+        
+        match point_options {
+            Intersections::Nothing => (),
+            Intersections::UniformPoints(point) => {
+                Self::draw_points(&self.points, pixmap, origin, line_length, &point);
+            },
+            Intersections::EndsAndMiddle(beginning, end, middle) => {
+                let beginning_point = self.path[0];
+                let ending_point = self.path[self.path.len()-1];
+
+                Self::draw_points(&vec![beginning_point], pixmap, origin, line_length, &beginning);
+                if beginning_point != ending_point {
+                    Self::draw_points(&vec![ending_point], pixmap, origin, line_length, &end);
+                }
+                let middle_points: Vec<Coord> = self.points.clone().into_iter().filter(|&point| point != beginning_point && point != ending_point).collect();
+                
+                Self::draw_points(&middle_points, pixmap, origin, line_length, &middle);
+            },  
+        }
     }
+
+    fn draw_gradient_lines(&self, pixmap: &mut Pixmap, stroke: &Stroke,
+        origin: HexCoord, line_length: f32, 
+        beginning_color: Color, ending_color: Color
+    ) {
+        let segments = self.path.len() as f32 - 1.0;
+
+        let beg_col = [beginning_color.red(), beginning_color.green(), beginning_color.blue(), beginning_color.alpha()];
+        let end_col = [ending_color.red(), ending_color.green(), ending_color.blue(), ending_color.alpha()];
+
+        let mut change_per_seg = [0.0; 4];
+        for i in 0..4 {
+            change_per_seg[i] = (beg_col[i]-end_col[i])/segments;
+        }
+
+        let mut cur_color = end_col;
+
+        let mut paint = Paint::default();
+        paint.anti_alias = false;
+        for i in (1..self.path.len()).rev() {
+            let loc_next = origin + HexCoord::from(self.path[i-1]) * line_length;
+            let loc_prev = origin + HexCoord::from(self.path[i]) * line_length;
+
+            let mut next_color = [0.0; 4];
+            for j in 0..4 {
+                next_color[j] = cur_color[j] + change_per_seg[j];
+                if next_color[j] > 1.0 {
+                    next_color[j] = 1.0;
+                } else if next_color[j] < 0.0 {
+                    next_color[j] = 0.0;
+                }
+            }
+            
+            paint.shader = LinearGradient::new(
+                tiny_skia::Point::from_xy(loc_prev.0, loc_prev.1),
+                tiny_skia::Point::from_xy(loc_next.0, loc_next.1),
+                vec![
+                    GradientStop::new(0.0, Color::from_rgba(cur_color[0], cur_color[1], cur_color[2], cur_color[3]).unwrap()),
+                    GradientStop::new(1.0, Color::from_rgba(next_color[0], next_color[1], next_color[2], next_color[3]).unwrap()),
+                ],
+                SpreadMode::Pad,
+                Transform::identity(),
+            ).unwrap();
+
+            let mut pb = PathBuilder::new();
+
+            pb.move_to(loc_prev.0, loc_prev.1);
+            pb.line_to(loc_next.0, loc_next.1);
+
+            let path = pb.finish().unwrap();
+
+            pixmap.stroke_path(&path, &paint, stroke, Transform::identity(), None);
+
+            cur_color = next_color;
+        }
+    }
+    fn draw_points(points: &Vec<Coord>, pixmap: &mut Pixmap, origin: HexCoord, line_length: f32, point: &Point) {
+        let mut paint = Paint::default();
+
+        let mut paint2 = Paint::default();
+
+        match point {
+            Point::None => (),
+            Point::SinglePoint(color, radius) => {
+                paint.set_color(*color);
+                for point in points {
+                    let loc = HexCoord::from(*point) * line_length + origin;
+                    let path = PathBuilder::from_circle(loc.0, loc.1, *radius).unwrap();
+                    pixmap.fill_path(&path, &paint, FillRule::Winding, Transform::default(), None);
+                }
+            },
+            Point::DoublePoint(color1, radius1, color2, radius2) => {
+                paint.set_color(*color1);
+                paint2.set_color(*color2);
+                for point in points {
+                    let loc = HexCoord::from(*point) * line_length + origin;
+                    let path = PathBuilder::from_circle(loc.0, loc.1, *radius1).unwrap();
+                    pixmap.fill_path(&path, &paint, FillRule::Winding, Transform::default(), None);
+
+                    let path = PathBuilder::from_circle(loc.0, loc.1, *radius2).unwrap();
+                    pixmap.fill_path(&path, &paint2, FillRule::Winding, Transform::default(), None);
+                }
+            },
+        }
+    }
+
+
+    
 }
+
 fn get_min_components(a: Coord, b: Coord) -> Coord {
     let mut res = a;
     if b.0 < res.0 {
