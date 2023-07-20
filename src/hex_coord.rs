@@ -1,4 +1,4 @@
-use std::ops::{Mul, Add};
+use std::ops::{Mul, Add, Sub, Div};
 
 use super::Coord;
 
@@ -30,10 +30,26 @@ impl Add for HexCoord {
     }
 }
 
+impl Sub for HexCoord {
+    type Output = HexCoord;
+
+    fn sub(self, rhs: Self) -> Self::Output {
+        HexCoord(self.0 - rhs.0, self.1 - rhs.1)
+    }
+}
+
 impl Mul<f32> for HexCoord {
     type Output = HexCoord;
 
     fn mul(self, rhs: f32) -> Self::Output {
         HexCoord(self.0 * rhs, self.1 * rhs)
+    }
+}
+
+impl Div<f32> for HexCoord {
+    type Output = HexCoord;
+
+    fn div(self, rhs: f32) -> Self::Output {
+        HexCoord(self.0/rhs, self.1/rhs)
     }
 }

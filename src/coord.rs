@@ -1,7 +1,7 @@
 use std::ops::Add;
 use super::Direction;
 
-#[derive(Debug, Clone, Copy, PartialEq, Eq)]
+#[derive(Debug, Clone, Copy, PartialEq, Eq, Hash)]
 pub struct Coord(pub i32, pub i32);
 
 impl Add<Direction> for Coord {
