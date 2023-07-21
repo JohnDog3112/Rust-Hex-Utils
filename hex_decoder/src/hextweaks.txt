@@ -1,0 +1,60 @@
+Clerk's Vacant Reflection (→ dict)
+https://walksanatora.github.io/HexTweaks/#patterns/hextweaks_dict@hextweaks:dict/new
+qaqwaq
+north_east
+Clerk's Distillation ([key],[any] → dict)
+https://walksanatora.github.io/HexTweaks/#patterns/hextweaks_dict@hextweaks:dict/from
+qaqwaqeqdweeew
+north_east
+Clerk's Decomposition (dict → [key],[any])
+https://walksanatora.github.io/HexTweaks/#patterns/hextweaks_dict@hextweaks:dict/break
+qaqwaqdwqqqwae
+north_east
+Clerk's Decomposition II (dict → key,value)
+https://walksanatora.github.io/HexTweaks/#patterns/hextweaks_dict@hextweaks:dict/break/single
+qaqwaqdwqqqwq
+north_east
+Clerk's Abacus Purification (dict → num)
+https://walksanatora.github.io/HexTweaks/#patterns/hextweaks_dict@hextweaks:dict/size
+qaqwaqeewaqaeaq
+north_east
+Clerk's Integration Exaltation (dict, key, any → dict)
+https://walksanatora.github.io/HexTweaks/#patterns/hextweaks_dict@hextweaks:dict/set
+qaqwaqdqedqde
+north_east
+Clerk's Surgeon's Exaltation (dict, key → dict, any)
+https://walksanatora.github.io/HexTweaks/#patterns/hextweaks_dict@hextweaks:dict/get
+qaqwaqdadeeed
+north_east
+Clerk's Excisor's Distillation (dict, key → dict)
+https://walksanatora.github.io/HexTweaks/#patterns/hextweaks_dict@hextweaks:dict/remove
+qaqwaqeqdd
+north_east
+Clerk's Thoths Gambit ([patterns],dict → [any])
+https://walksanatora.github.io/HexTweaks/#patterns/hextweaks_dict@hextweaks:dict/thoths
+qaqwaqedadad
+north_east
+Progress Gambit
+https://walksanatora.github.io/HexTweaks/#patterns/hextweaks_utility@hextweaks:page/right
+qqaw
+south_west
+Regress Gambit
+https://walksanatora.github.io/HexTweaks/#patterns/hextweaks_utility@hextweaks:page/left
+eedw
+south_east
+Iterators Purification (Number → [Number])
+https://walksanatora.github.io/HexTweaks/#patterns/hextweaks_utility@hextweaks:itter
+wdwaw
+north_east
+Nadir of Nausea (entity, number, number →)
+https://walksanatora.github.io/HexTweaks/#patterns/spells/naseua@hextweaks:nausea
+weed
+east
+Natural Search (Entity, Vec →)
+https://walksanatora.github.io/HexTweaks/#patterns/great_spells/craftgrandscroll@hextweaks:craft/grandscroll
+wqqewawqwqedawdweewaeqwawdaqwdewawdadwawqwawdadwaw
+west
+Suspicious Glyph
+https://walksanatora.github.io/HexTweaks/#patterns/great_spells/suspicious_glyph@hextweaks:suicide
+dewdeqwwedaqedwadweqewwd
+west

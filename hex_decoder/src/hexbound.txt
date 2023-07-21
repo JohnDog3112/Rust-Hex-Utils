@@ -1,0 +1,124 @@
+Logistician's Purification (item stack → item)
+https://hexbound.cypher.coffee/0.1.3+1.19.2/index.html#patterns/item_patterns@hexbound:get_stack_prop/item
+dedqaa
+west
+Treasurer's Purification (item stack → num)
+https://hexbound.cypher.coffee/0.1.3+1.19.2/index.html#patterns/item_patterns@hexbound:get_stack_prop/size
+dedqaq
+west
+Duelist's Purification (entity → item stack)
+https://hexbound.cypher.coffee/0.1.3+1.19.2/index.html#patterns/item_patterns@hexbound:get_main_hand
+adeq
+east
+Shieldbearer's Purification (entity → item stack)
+https://hexbound.cypher.coffee/0.1.3+1.19.2/index.html#patterns/item_patterns@hexbound:get_off_hand
+qeda
+east
+Hoarder's Distillation (vector, vector → list)
+https://hexbound.cypher.coffee/0.1.3+1.19.2/index.html#patterns/item_patterns@hexbound:get_inventory/stacks
+aqwed
+north_east
+Collector's Distillation (vector, vector → list)
+https://hexbound.cypher.coffee/0.1.3+1.19.2/index.html#patterns/item_patterns@hexbound:get_inventory/items
+dewqa
+north_east
+Fragment's Purification (pattern → num)
+https://hexbound.cypher.coffee/0.1.3+1.19.2/index.html#patterns/pattern_editing@hexbound:pattern/line_count
+eqqqq
+west
+Winding Purification (pattern → num)
+https://hexbound.cypher.coffee/0.1.3+1.19.2/index.html#patterns/pattern_editing@hexbound:pattern/start_dir
+qeeee
+west
+Revolving Distillation (pattern, num → pattern)
+https://hexbound.cypher.coffee/0.1.3+1.19.2/index.html#patterns/pattern_editing@hexbound:pattern/rotate
+deeee
+west
+Painter's Distillation (pattern, pattern → pattern)
+https://hexbound.cypher.coffee/0.1.3+1.19.2/index.html#patterns/pattern_editing@hexbound:pattern/merge
+aqqqqa
+north_west
+Starting Distillation (pattern, num → pattern)
+https://hexbound.cypher.coffee/0.1.3+1.19.2/index.html#patterns/pattern_editing@hexbound:pattern/head
+wqqqq
+east
+Ending Distillation (pattern, num → pattern)
+https://hexbound.cypher.coffee/0.1.3+1.19.2/index.html#patterns/pattern_editing@hexbound:pattern/tail
+weeee
+west
+Memorize Pigment (pattern →)
+https://hexbound.cypher.coffee/0.1.3+1.19.2/index.html#patterns/spells/colorizer_storage@hexbound:colorizer/save
+wqwawqqawddwqwede
+north_east
+Recall Pigment (pattern →)
+https://hexbound.cypher.coffee/0.1.3+1.19.2/index.html#patterns/spells/colorizer_storage@hexbound:colorizer/load
+wqwawqqawddwqeqaq
+north_east
+Forget Pigment (pattern →)
+https://hexbound.cypher.coffee/0.1.3+1.19.2/index.html#patterns/spells/colorizer_storage@hexbound:colorizer/delete
+wqwawqqawddwqwdd
+north_east
+Hex Shield (vec, vec, num →)
+https://hexbound.cypher.coffee/0.1.3+1.19.2/index.html#patterns/spells/shield@hexbound:colorizer/normal
+eweeewe
+north_east
+Unstable Hex Shield (vec, vec, num →)
+https://hexbound.cypher.coffee/0.1.3+1.19.2/index.html#patterns/spells/shield@hexbound:create_shield/glitchy
+eqdweeqdw
+north_east
+Bind Figment (vector →)
+https://hexbound.cypher.coffee/0.1.3+1.19.2/index.html#patterns/great_spells/impetus_fake_player@hexbound:set_fake_impetus_player
+qaqdaqwqaeedewd
+north_east
+Send Instructions (entity, [pattern] →)
+https://hexbound.cypher.coffee/0.1.3+1.19.2/index.html#patterns/constructs/constructs_intro@hexbound:instructions/send
+qaaq
+east
+Automaton's Reflection (→ entity)
+https://hexbound.cypher.coffee/0.1.3+1.19.2/index.html#patterns/constructs/constructs_intro@hexbound:construct_get_self
+qaawedee
+east
+Command: Move To Position (vector, [pattern] →)
+https://hexbound.cypher.coffee/0.1.3+1.19.2/index.html#patterns/constructs/executing_commands@hexbound:give_command/move_to
+qaaqwdaqqqa
+east
+Command: Pick Up Item (entity, [pattern] →)
+https://hexbound.cypher.coffee/0.1.3+1.19.2/index.html#patterns/constructs/executing_commands@hexbound:give_command/pick_up
+eddeawaw
+east
+Command: Drop Item ([pattern] →)
+https://hexbound.cypher.coffee/0.1.3+1.19.2/index.html#patterns/constructs/executing_commands@hexbound:give_command/drop_off
+qaaqdwdw
+east
+Command: Harvest (vector, [pattern] →)
+https://hexbound.cypher.coffee/0.1.3+1.19.2/index.html#patterns/constructs/executing_commands@hexbound:give_command/harvest
+qaaqqedwed
+east
+Command: Use On Block (vector, vector, [pattern] →)
+https://hexbound.cypher.coffee/0.1.3+1.19.2/index.html#patterns/constructs/executing_commands@hexbound:give_command/use/block
+qaaqdee
+east
+Create Spider Construct (entity, entity, entity →)
+https://hexbound.cypher.coffee/0.1.3+1.19.2/index.html#patterns/constructs/spider_construct@hexbound:create_construct/spider
+wqwqwwqwqwqwwaeqaqdwdqaqe
+south_west
+Broadcast Instructions (vector, [pattern] →)
+https://hexbound.cypher.coffee/0.1.3+1.19.2/index.html#patterns/constructs/bind_broadcast@hexbound:instructions/broadcast
+qqaaqqqqwq
+south_east
+Artificer's Gambit (pattern | entity | null →)
+https://hexbound.cypher.coffee/0.1.3+1.19.2/index.html#patterns/constructs/bind_broadcast@hexbound:bind_construct
+wqaawddewdwewewewewew
+east
+Entity Purification: Construct (vector → entity or null)
+https://hexbound.cypher.coffee/0.1.3+1.19.2/index.html#patterns/constructs/selecting_constructs@hexbound:get_entity/construct
+qqqqqdaqaawedde
+south_east
+Zone Distillation: Construct (vector, number → list)
+https://hexbound.cypher.coffee/0.1.3+1.19.2/index.html#patterns/constructs/selecting_constructs@hexbound:zone_entity/construct
+qqqqqwdeddwedde
+south_east
+Zone Distillation: Non-Construct (vector, number → list)
+https://hexbound.cypher.coffee/0.1.3+1.19.2/index.html#patterns/constructs/selecting_constructs@hexbound:zone_entity/not_construct
+eeeeewaqaawedde
+south_east

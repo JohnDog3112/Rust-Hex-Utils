@@ -1,0 +1,672 @@
+Gravitational Purification (entity → vector)
+https://gamma-delta.github.io/HexMod/#interop/gravity@hexcasting:interop/gravity/get
+wawawddew
+north_east
+Alter Gravity (entity, vector →)
+https://gamma-delta.github.io/HexMod/#interop/gravity@hexcasting:interop/gravity/set
+wdwdwaaqw
+north_west
+Gulliver's Purification (entity → double)
+https://gamma-delta.github.io/HexMod/#interop/pehkui@hexcasting:interop/pehkui/get
+aawawwawwa
+north_west
+Alter Scale (entity, double →)
+https://gamma-delta.github.io/HexMod/#interop/pehkui@hexcasting:interop/pehkui/set
+ddwdwwdwwd
+north_east
+Mind's Reflection (→ entity | null)
+https://gamma-delta.github.io/HexMod/#patterns/basics@hexcasting:get_caster
+qaq
+north_east
+Compass' Purification (entity → vector)
+https://gamma-delta.github.io/HexMod/#patterns/basics@hexcasting:entity_pos/eye
+aa
+east
+Compass' Purification II (entity → vector)
+https://gamma-delta.github.io/HexMod/#patterns/basics@hexcasting:entity_pos/foot
+dd
+north_east
+Alidade's Purification (entity → vector)
+https://gamma-delta.github.io/HexMod/#patterns/basics@hexcasting:get_entity_look
+wa
+east
+Archer's Distillation (vector, vector → vector)
+https://gamma-delta.github.io/HexMod/#patterns/basics@hexcasting:raycast
+wqaawdd
+east
+Architect's Distillation (vector, vector → vector)
+https://gamma-delta.github.io/HexMod/#patterns/basics@hexcasting:raycast/axis
+weddwaa
+east
+Scout's Distillation (vector, vector → entity)
+https://gamma-delta.github.io/HexMod/#patterns/basics@hexcasting:raycast/entity
+weaqa
+east
+Reveal (any → any)
+https://gamma-delta.github.io/HexMod/#patterns/basics@hexcasting:print
+de
+north_east
+Stadiometer's Prfn. (entity → num)
+https://gamma-delta.github.io/HexMod/#patterns/basics@hexcasting:get_entity_height
+awq
+north_east
+Pace Purification (entity → vector)
+https://gamma-delta.github.io/HexMod/#patterns/basics@hexcasting:get_entity_velocity
+wq
+east
+Additive Distillation (num/vec, num/vec → num/vec)
+https://gamma-delta.github.io/HexMod/#patterns/math@hexcasting:add
+waaw
+north_east
+Subtractive Distillation (num/vec, num/vec → num/vec)
+https://gamma-delta.github.io/HexMod/#patterns/math@hexcasting:sub
+wddw
+north_west
+Multiplicative Dstl. (num/vec, num/vec → num/vec)
+https://gamma-delta.github.io/HexMod/#patterns/math@hexcasting:mul_dot
+waqaw
+south_east
+Division Dstl. (num/vec, num/vec → num/vec)
+https://gamma-delta.github.io/HexMod/#patterns/math@hexcasting:div_cross
+wdedw
+north_east
+Length Purification (num/vec → number)
+https://gamma-delta.github.io/HexMod/#patterns/math@hexcasting:abs_len
+wqaqw
+north_east
+Power Distillation (num/vec, num/vec → num/vec)
+https://gamma-delta.github.io/HexMod/#patterns/math@hexcasting:pow_proj
+wedew
+north_west
+Floor Purification (num → num)
+https://gamma-delta.github.io/HexMod/#patterns/math@hexcasting:floor
+ewq
+east
+Ceiling Purification (num → num)
+https://gamma-delta.github.io/HexMod/#patterns/math@hexcasting:ceil
+qwe
+east
+Vector Exaltation (num, num, num → vector)
+https://gamma-delta.github.io/HexMod/#patterns/math@hexcasting:construct_vec
+eqqqqq
+east
+Vector Disintegration (vector → num, num, num)
+https://gamma-delta.github.io/HexMod/#patterns/math@hexcasting:deconstruct_vec
+qeeeee
+east
+Modulus Distillation (num, num → num)
+https://gamma-delta.github.io/HexMod/#patterns/math@hexcasting:modulo
+addwaad
+north_east
+Axial Purification (vec or num → vec or num)
+https://gamma-delta.github.io/HexMod/#patterns/math@hexcasting:coerce_axial
+qqqqqaww
+north_west
+Entropy Reflection (→ num)
+https://gamma-delta.github.io/HexMod/#patterns/math@hexcasting:random
+eqqq
+north_west
+True Reflection (→ bool)
+https://gamma-delta.github.io/HexMod/#patterns/consts@hexcasting:const/true
+aqae
+south_east
+False Reflection (→ bool)
+https://gamma-delta.github.io/HexMod/#patterns/consts@hexcasting:const/false
+dedq
+north_east
+Nullary Reflection (→ influence)
+https://gamma-delta.github.io/HexMod/#patterns/consts@hexcasting:const/null
+d
+east
+Vector Reflection Zero (→ vector)
+https://gamma-delta.github.io/HexMod/#patterns/consts@hexcasting:const/vec/0
+qqqqq
+north_west
+Circle's Reflection (→ num)
+https://gamma-delta.github.io/HexMod/#patterns/consts@hexcasting:const/double/tau
+eawae
+north_west
+Arc's Reflection (→ num)
+https://gamma-delta.github.io/HexMod/#patterns/consts@hexcasting:const/double/pi
+qdwdq
+north_east
+Euler's Reflection (→ num)
+https://gamma-delta.github.io/HexMod/#patterns/consts@hexcasting:const/double/e
+aaq
+east
+Jester's Gambit (any, any → any, any)
+https://gamma-delta.github.io/HexMod/#patterns/stackmanip@hexcasting:swap
+aawdd
+east
+Rotation Gambit (any, any, any → any, any, any)
+https://gamma-delta.github.io/HexMod/#patterns/stackmanip@hexcasting:rotate
+aaeaa
+east
+Rotation Gambit II (any, any, any → any, any, any)
+https://gamma-delta.github.io/HexMod/#patterns/stackmanip@hexcasting:rotate_reverse
+ddqdd
+north_east
+Gemini Decomposition (any → any, any)
+https://gamma-delta.github.io/HexMod/#patterns/stackmanip@hexcasting:duplicate
+aadaa
+east
+Prospector's Gambit (any, any → any, any, any)
+https://gamma-delta.github.io/HexMod/#patterns/stackmanip@hexcasting:over
+aaedd
+east
+Undertaker's Gambit (any, any → any, any, any)
+https://gamma-delta.github.io/HexMod/#patterns/stackmanip@hexcasting:tuck
+ddqaa
+east
+Gemini Gambit (any, number → many)
+https://gamma-delta.github.io/HexMod/#patterns/stackmanip@hexcasting:duplicate_n
+aadaadaa
+east
+Dioscuri Gambit (any, any → any, any, any, any)
+https://gamma-delta.github.io/HexMod/#patterns/stackmanip@hexcasting:2dup
+aadadaaw
+east
+Flock's Reflection (→ number)
+https://gamma-delta.github.io/HexMod/#patterns/stackmanip@hexcasting:stack_len
+qwaeawqaeaqa
+north_west
+Fisherman's Gambit (number → any)
+https://gamma-delta.github.io/HexMod/#patterns/stackmanip@hexcasting:fisherman
+ddad
+west
+Fisherman's Gambit II (number → any)
+https://gamma-delta.github.io/HexMod/#patterns/stackmanip@hexcasting:fisherman/copy
+aada
+east
+Swindler's Gambit (many, number → many)
+https://gamma-delta.github.io/HexMod/#patterns/stackmanip@hexcasting:swizzle
+qaawdde
+south_east
+Augur's Purification (any → bool)
+https://gamma-delta.github.io/HexMod/#patterns/logic@hexcasting:bool_coerce
+aw
+north_east
+Numerologist's Prfn. (bool → number)
+https://gamma-delta.github.io/HexMod/#patterns/logic@hexcasting:bool_to_number
+awd
+south_east
+Negation Purification (any → number)
+https://gamma-delta.github.io/HexMod/#patterns/logic@hexcasting:not
+dw
+north_west
+Disjunction Distillation (bool, bool → bool)
+https://gamma-delta.github.io/HexMod/#patterns/logic@hexcasting:or
+waw
+south_east
+Conjunction Distillation (bool, bool → bool)
+https://gamma-delta.github.io/HexMod/#patterns/logic@hexcasting:and
+wdw
+north_east
+Exclusion Distillation (bool, bool → bool)
+https://gamma-delta.github.io/HexMod/#patterns/logic@hexcasting:xor
+dwa
+north_west
+Augur's Exaltation (bool, any, any → any)
+https://gamma-delta.github.io/HexMod/#patterns/logic@hexcasting:if
+awdd
+south_east
+Equality Distillation (any, any → number)
+https://gamma-delta.github.io/HexMod/#patterns/logic@hexcasting:equals
+ad
+east
+Inequality Distillation (any, any → number)
+https://gamma-delta.github.io/HexMod/#patterns/logic@hexcasting:not_equals
+da
+east
+Maximus Distillation (number, number → number)
+https://gamma-delta.github.io/HexMod/#patterns/logic@hexcasting:greater
+e
+south_east
+Minimus Distillation (number, number → number)
+https://gamma-delta.github.io/HexMod/#patterns/logic@hexcasting:less
+q
+south_west
+Maximus Distillation II (number, number → number)
+https://gamma-delta.github.io/HexMod/#patterns/logic@hexcasting:greater_eq
+ee
+south_east
+Minimus Distillation II (number, number → number)
+https://gamma-delta.github.io/HexMod/#patterns/logic@hexcasting:less_eq
+qq
+south_west
+Entity Purification (vector → entity or null)
+https://gamma-delta.github.io/HexMod/#patterns/entities@hexcasting:get_entity
+qqqqqdaqa
+south_east
+Entity Prfn.: Animal (vector → entity or null)
+https://gamma-delta.github.io/HexMod/#patterns/entities@hexcasting:get_entity/animal
+qqqqqdaqaawa
+south_east
+Entity Prfn.: Monster (vector → entity or null)
+https://gamma-delta.github.io/HexMod/#patterns/entities@hexcasting:get_entity/monster
+qqqqqdaqaawq
+south_east
+Entity Prfn.: Item (vector → entity or null)
+https://gamma-delta.github.io/HexMod/#patterns/entities@hexcasting:get_entity/item
+qqqqqdaqaaww
+south_east
+Entity Prfn.: Player (vector → entity or null)
+https://gamma-delta.github.io/HexMod/#patterns/entities@hexcasting:get_entity/player
+qqqqqdaqaawe
+south_east
+Entity Prfn.: Living (vector → entity or null)
+https://gamma-delta.github.io/HexMod/#patterns/entities@hexcasting:get_entity/living
+qqqqqdaqaawd
+south_east
+Zone Dstl.: Animal (vector, number → list)
+https://gamma-delta.github.io/HexMod/#patterns/entities@hexcasting:zone_entity/animal
+qqqqqwdeddwa
+south_east
+Zone Dstl.: Non-Animal (vector, number → list)
+https://gamma-delta.github.io/HexMod/#patterns/entities@hexcasting:zone_entity/not_animal
+eeeeewaqaawa
+north_east
+Zone Dstl.: Monster (vector, number → list)
+https://gamma-delta.github.io/HexMod/#patterns/entities@hexcasting:zone_entity/monster
+qqqqqwdeddwq
+south_east
+Zone Dstl.: Non-Monster (vector, number → list)
+https://gamma-delta.github.io/HexMod/#patterns/entities@hexcasting:zone_entity/not_monster
+eeeeewaqaawq
+north_east
+Zone Dstl.: Item (vector, number → list)
+https://gamma-delta.github.io/HexMod/#patterns/entities@hexcasting:zone_entity/item
+qqqqqwdeddww
+south_east
+Zone Dstl.: Non-Item (vector, number → list)
+https://gamma-delta.github.io/HexMod/#patterns/entities@hexcasting:zone_entity/not_item
+eeeeewaqaaww
+north_east
+Zone Dstl.: Player (vector, number → list)
+https://gamma-delta.github.io/HexMod/#patterns/entities@hexcasting:zone_entity/player
+qqqqqwdeddwe
+south_east
+Zone Dstl.: Non-Player (vector, number → list)
+https://gamma-delta.github.io/HexMod/#patterns/entities@hexcasting:zone_entity/not_player
+eeeeewaqaawe
+north_east
+Zone Dstl.: Living (vector, number → list)
+https://gamma-delta.github.io/HexMod/#patterns/entities@hexcasting:zone_entity/living
+qqqqqwdeddwd
+south_east
+Zone Dstl.: Non-Living (vector, number → list)
+https://gamma-delta.github.io/HexMod/#patterns/entities@hexcasting:zone_entity/not_living
+eeeeewaqaawd
+north_east
+Zone Dstl.: Any (vector, number → list)
+https://gamma-delta.github.io/HexMod/#patterns/entities@hexcasting:zone_entity
+qqqqqwded
+south_east
+Selection Distillation (list, number → any)
+https://gamma-delta.github.io/HexMod/#patterns/lists@hexcasting:index
+deeed
+north_west
+Selection Exaltation (list, num, num → list)
+https://gamma-delta.github.io/HexMod/#patterns/lists@hexcasting:slice
+qaeaqwded
+north_west
+Integration Distillation (list, any → list)
+https://gamma-delta.github.io/HexMod/#patterns/lists@hexcasting:append
+edqde
+south_west
+Combination Distillation (list, list → list)
+https://gamma-delta.github.io/HexMod/#patterns/lists@hexcasting:concat
+qaeaq
+north_west
+Vacant Reflection (→ list)
+https://gamma-delta.github.io/HexMod/#patterns/lists@hexcasting:empty_list
+qqaeaae
+north_east
+Single's Purification (any → list)
+https://gamma-delta.github.io/HexMod/#patterns/lists@hexcasting:singleton
+adeeed
+east
+Abacus Purification (list → num)
+https://gamma-delta.github.io/HexMod/#patterns/lists@hexcasting:list_size
+aqaeaq
+east
+Retrograde Purification (list → list)
+https://gamma-delta.github.io/HexMod/#patterns/lists@hexcasting:reverse_list
+qqqaede
+east
+Locator's Distillation (list, any → num)
+https://gamma-delta.github.io/HexMod/#patterns/lists@hexcasting:index_of
+dedqde
+east
+Excisor's Distillation (list, num → list)
+https://gamma-delta.github.io/HexMod/#patterns/lists@hexcasting:list_remove
+edqdewaqa
+south_west
+Surgeon's Exaltation (list, num, any → list)
+https://gamma-delta.github.io/HexMod/#patterns/lists@hexcasting:modify_in_place
+wqaeaqw
+north_west
+Flock's Gambit (many, num → list)
+https://gamma-delta.github.io/HexMod/#patterns/lists@hexcasting:last_n_list
+ewdqdwe
+south_west
+Flock's Disintegration (list → many)
+https://gamma-delta.github.io/HexMod/#patterns/lists@hexcasting:splat
+qwaeawq
+north_west
+Speaker's Distillation (list, any → list)
+https://gamma-delta.github.io/HexMod/#patterns/lists@hexcasting:construct
+ddewedd
+south_east
+Speaker's Decomposition (list → list, any)
+https://gamma-delta.github.io/HexMod/#patterns/lists@hexcasting:deconstruct
+aaqwqaa
+south_west
+Scribe's Reflection (→ any)
+https://gamma-delta.github.io/HexMod/#patterns/readwrite@hexcasting:read
+aqqqqq
+east
+Scribe's Gambit (any →)
+https://gamma-delta.github.io/HexMod/#patterns/readwrite@hexcasting:write
+deeeee
+east
+Chronicler's Prfn. (entity → any)
+https://gamma-delta.github.io/HexMod/#patterns/readwrite@hexcasting:read/entity
+wawqwqwqwqwqw
+east
+Chronicler's Gambit (entity, any →)
+https://gamma-delta.github.io/HexMod/#patterns/readwrite@hexcasting:write/entity
+wdwewewewewew
+east
+Auditor's Reflection (→ bool)
+https://gamma-delta.github.io/HexMod/#patterns/readwrite@hexcasting:readable
+aqqqqqe
+east
+Auditor's Purification (entity → bool)
+https://gamma-delta.github.io/HexMod/#patterns/readwrite@hexcasting:readable/entity
+wawqwqwqwqwqwew
+east
+Assessor's Reflection (→ bool)
+https://gamma-delta.github.io/HexMod/#patterns/readwrite@hexcasting:writable
+deeeeeq
+east
+Assessor's Purification (entity → bool)
+https://gamma-delta.github.io/HexMod/#patterns/readwrite@hexcasting:writable/entity
+wdwewewewewewqw
+east
+Huginn's Gambit (any →)
+https://gamma-delta.github.io/HexMod/#patterns/readwrite@hexcasting:write/local
+eqqwawqaaw
+north_west
+Muninn's Reflection (→ any)
+https://gamma-delta.github.io/HexMod/#patterns/readwrite@hexcasting:read/local
+qeewdweddw
+north_east
+Sine Purification (num → num)
+https://gamma-delta.github.io/HexMod/#patterns/advanced_math@hexcasting:sin
+qqqqqaa
+south_east
+Cosine Purification (num → num)
+https://gamma-delta.github.io/HexMod/#patterns/advanced_math@hexcasting:cos
+qqqqqad
+south_east
+Tangent Purification (num → num)
+https://gamma-delta.github.io/HexMod/#patterns/advanced_math@hexcasting:tan
+wqqqqqadq
+south_west
+Inverse Sine Prfn. (num → num)
+https://gamma-delta.github.io/HexMod/#patterns/advanced_math@hexcasting:arcsin
+ddeeeee
+south_east
+Inverse Cosine Prfn. (num → num)
+https://gamma-delta.github.io/HexMod/#patterns/advanced_math@hexcasting:arccos
+adeeeee
+north_east
+Inverse Tangent Prfn. (num → num)
+https://gamma-delta.github.io/HexMod/#patterns/advanced_math@hexcasting:arctan
+eadeeeeew
+north_east
+Inverse Tan. Prfn. II (num, num → num)
+https://gamma-delta.github.io/HexMod/#patterns/advanced_math@hexcasting:arctan2
+deadeeeeewd
+west
+Logarithmic Distillation (num, num → num)
+https://gamma-delta.github.io/HexMod/#patterns/advanced_math@hexcasting:logarithm
+eqaqe
+north_west
+Unifying Distillation (num, num/list, list → num/list)
+https://gamma-delta.github.io/HexMod/#patterns/sets@hexcasting:bit/or
+waweaqa
+south_east
+Intersection Distillation (num, num/list, list → num/list)
+https://gamma-delta.github.io/HexMod/#patterns/sets@hexcasting:bit/and
+wdweaqa
+north_east
+Exclusionary Distillation (num, num/list, list → num/list)
+https://gamma-delta.github.io/HexMod/#patterns/sets@hexcasting:bit/xor
+dwaeaqa
+north_west
+Inversion Purification (num → num)
+https://gamma-delta.github.io/HexMod/#patterns/sets@hexcasting:bit/not
+dweaqa
+north_west
+Uniqueness Purification (list → list)
+https://gamma-delta.github.io/HexMod/#patterns/sets@hexcasting:bit/to_set
+aweaqa
+north_east
+Hermes' Gambit ([pattern] | pattern → many)
+https://gamma-delta.github.io/HexMod/#patterns/meta@hexcasting:eval
+deaqq
+south_east
+Thoth's Gambit (list of patterns, list → list)
+https://gamma-delta.github.io/HexMod/#patterns/meta@hexcasting:for_each
+dadad
+north_east
+Charon's Gambit
+https://gamma-delta.github.io/HexMod/#patterns/meta@hexcasting:halt
+aqdee
+south_west
+Waystone Reflection (→ vector)
+https://gamma-delta.github.io/HexMod/#patterns/circle@hexcasting:circle/impetus_pos
+eaqwqae
+south_west
+Lodestone Reflection (→ vector)
+https://gamma-delta.github.io/HexMod/#patterns/circle@hexcasting:circle/impetus_dir
+eaqwqaewede
+south_west
+Lesser Fold Reflection (→ vector)
+https://gamma-delta.github.io/HexMod/#patterns/circle@hexcasting:circle/bounds/min
+eaqwqaewdd
+south_west
+Greater Fold Reflection (→ vector)
+https://gamma-delta.github.io/HexMod/#patterns/circle@hexcasting:circle/bounds/max
+aqwqawaaqa
+west
+Akasha's Distillation (vector, pattern → any)
+https://gamma-delta.github.io/HexMod/#patterns/akashic_patterns@hexcasting:akashic/read
+qqqwqqqqqaq
+west
+Akasha's Gambit (vector, pattern, any →)
+https://gamma-delta.github.io/HexMod/#patterns/akashic_patterns@hexcasting:akashic/write
+eeeweeeeede
+east
+Explosion (vector, number →)
+https://gamma-delta.github.io/HexMod/#patterns/spells/basic@hexcasting:explode
+aawaawaa
+east
+Fireball (vector, number →)
+https://gamma-delta.github.io/HexMod/#patterns/spells/basic@hexcasting:explode/fire
+ddwddwdd
+east
+Impulse (entity, vector →)
+https://gamma-delta.github.io/HexMod/#patterns/spells/basic@hexcasting:add_motion
+awqqqwaqw
+south_west
+Blink (entity, number →)
+https://gamma-delta.github.io/HexMod/#patterns/spells/basic@hexcasting:blink
+awqqqwaq
+south_west
+Make Note (vector, number, number →)
+https://gamma-delta.github.io/HexMod/#patterns/spells/basic@hexcasting:beep
+adaa
+west
+Place Block (vector →)
+https://gamma-delta.github.io/HexMod/#patterns/spells/blockworks@hexcasting:place_block
+eeeeede
+south_west
+Break Block (vector →)
+https://gamma-delta.github.io/HexMod/#patterns/spells/blockworks@hexcasting:break_block
+qaqqqqq
+east
+Create Water (vector →)
+https://gamma-delta.github.io/HexMod/#patterns/spells/blockworks@hexcasting:create_water
+aqawqadaq
+south_east
+Destroy Liquid (vector →)
+https://gamma-delta.github.io/HexMod/#patterns/spells/blockworks@hexcasting:destroy_water
+dedwedade
+south_west
+Conjure Block (vector →)
+https://gamma-delta.github.io/HexMod/#patterns/spells/blockworks@hexcasting:conjure_block
+qqa
+north_east
+Conjure Light (vector →)
+https://gamma-delta.github.io/HexMod/#patterns/spells/blockworks@hexcasting:conjure_light
+qqd
+north_east
+Overgrow (vector →)
+https://gamma-delta.github.io/HexMod/#patterns/spells/blockworks@hexcasting:bonemeal
+wqaqwawqaqw
+north_east
+Edify Sapling (vector →)
+https://gamma-delta.github.io/HexMod/#patterns/spells/blockworks@hexcasting:edify
+wqaqwd
+north_east
+Ignite Block (vector →)
+https://gamma-delta.github.io/HexMod/#patterns/spells/blockworks@hexcasting:ignite
+aaqawawa
+south_east
+Extinguish Area (vector →)
+https://gamma-delta.github.io/HexMod/#patterns/spells/blockworks@hexcasting:extinguish
+ddedwdwd
+south_west
+White Sun's Nadir (entity, number, number →)
+https://gamma-delta.github.io/HexMod/#patterns/spells/nadirs@hexcasting:potion/weakness
+qqqqqaqwawaw
+north_west
+Blue Sun's Nadir (entity, number →)
+https://gamma-delta.github.io/HexMod/#patterns/spells/nadirs@hexcasting:potion/levitation
+qqqqqawwawawd
+west
+Black Sun's Nadir (entity, number, number →)
+https://gamma-delta.github.io/HexMod/#patterns/spells/nadirs@hexcasting:potion/wither
+qqqqqaewawawe
+south_west
+Red Sun's Nadir (entity, number, number →)
+https://gamma-delta.github.io/HexMod/#patterns/spells/nadirs@hexcasting:potion/poison
+qqqqqadwawaww
+south_east
+Green Sun's Nadir (entity, number, number →)
+https://gamma-delta.github.io/HexMod/#patterns/spells/nadirs@hexcasting:potion/slowness
+qqqqqadwawaw
+south_east
+Craft Cypher (entity, list of patterns →)
+https://gamma-delta.github.io/HexMod/#patterns/spells/hexcasting@hexcasting:craft/cypher
+waqqqqq
+east
+Craft Trinket (entity, list of patterns →)
+https://gamma-delta.github.io/HexMod/#patterns/spells/hexcasting@hexcasting:craft/trinket
+wwaqqqqqeaqeaeqqqeaeq
+east
+Craft Artifact (entity, list of patterns →)
+https://gamma-delta.github.io/HexMod/#patterns/spells/hexcasting@hexcasting:craft/artifact
+wwaqqqqqeawqwqwqwqwqwwqqeadaeqqeqqeadaeqq
+east
+Recharge Item (entity →)
+https://gamma-delta.github.io/HexMod/#patterns/spells/hexcasting@hexcasting:recharge
+qqqqqwaeaeaeaeaea
+north_west
+Erase Item
+https://gamma-delta.github.io/HexMod/#patterns/spells/hexcasting@hexcasting:erase
+qdqawwaww
+east
+Summon Sentinel (vector →)
+https://gamma-delta.github.io/HexMod/#patterns/spells/sentinels@hexcasting:sentinel/create
+waeawae
+east
+Banish Sentinel
+https://gamma-delta.github.io/HexMod/#patterns/spells/sentinels@hexcasting:sentinel/destroy
+qdwdqdw
+north_east
+Locate Sentinel (→ vector)
+https://gamma-delta.github.io/HexMod/#patterns/spells/sentinels@hexcasting:sentinel/get_pos
+waeawaede
+east
+Wayfind Sentinel (vector → vector)
+https://gamma-delta.github.io/HexMod/#patterns/spells/sentinels@hexcasting:sentinel/wayfind
+waeawaedwa
+east
+Internalize Pigment
+https://gamma-delta.github.io/HexMod/#patterns/spells/colorize@hexcasting:colorize
+awddwqawqwawq
+east
+Anchorite's Flight (entity, number →)
+https://gamma-delta.github.io/HexMod/#patterns/spells/flight@hexcasting:flight/range
+awawaawq
+south_west
+Wayfarer's Flight (entity, number →)
+https://gamma-delta.github.io/HexMod/#patterns/spells/flight@hexcasting:flight/time
+dwdwdewq
+north_east
+Create Lava (vector →)
+https://gamma-delta.github.io/HexMod/#patterns/great_spells/create_lava@hexcasting:create_lava
+eaqawqadaqd
+east
+White Sun's Zenith (entity, number, number →)
+https://gamma-delta.github.io/HexMod/#patterns/great_spells/zeniths@hexcasting:potion/regeneration
+qqqqaawawaedd
+north_west
+Blue Sun's Zenith (entity, number →)
+https://gamma-delta.github.io/HexMod/#patterns/great_spells/zeniths@hexcasting:potion/night_vision
+qqqaawawaeqdd
+west
+Black Sun's Zenith (entity, number, number →)
+https://gamma-delta.github.io/HexMod/#patterns/great_spells/zeniths@hexcasting:potion/absorption
+qqaawawaeqqdd
+south_west
+Red Sun's Zenith (entity, number, number →)
+https://gamma-delta.github.io/HexMod/#patterns/great_spells/zeniths@hexcasting:potion/haste
+qaawawaeqqqdd
+south_east
+Green Sun's Zenith (entity, number, number →)
+https://gamma-delta.github.io/HexMod/#patterns/great_spells/zeniths@hexcasting:potion/strength
+aawawaeqqqqdd
+east
+Summon Lightning (vector →)
+https://gamma-delta.github.io/HexMod/#patterns/great_spells/weather_manip@hexcasting:lightning
+waadwawdaaweewq
+east
+Summon Rain
+https://gamma-delta.github.io/HexMod/#patterns/great_spells/weather_manip@hexcasting:summon_rain
+wwweeewwweewdawdwad
+west
+Dispel Rain
+https://gamma-delta.github.io/HexMod/#patterns/great_spells/weather_manip@hexcasting:dispel_rain
+eeewwweeewwaqqddqdqd
+east
+Altiora (entity, number, number →)
+https://gamma-delta.github.io/HexMod/#patterns/great_spells/altiora@hexcasting:flight
+eawwaeawawaa
+north_west
+Greater Teleport (entity, vector →)
+https://gamma-delta.github.io/HexMod/#patterns/great_spells/teleport@hexcasting:teleport
+wwwqqqwwwqqeqqwwwqqwqqdqqqqqdqq
+east
+Craft Phial (entity →)
+https://gamma-delta.github.io/HexMod/#patterns/great_spells/make_battery@hexcasting:craft/battery
+aqqqaqwwaqqqqqeqaqqqawwqwqwqwqwqw
+south_west
+Flay Mind (entity, vector →)
+https://gamma-delta.github.io/HexMod/#patterns/great_spells/brainsweep@hexcasting:brainsweep
+qeqwqwqwqwqeqaeqeaqeqaeqaqded
+north_east

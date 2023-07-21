@@ -1,0 +1,84 @@
+Optician's Distillation (vector, vector → vector)
+https://sonunte.github.io/HexKinetics/#patterns/math_actions@hexkinetics:reflection/const
+qqqqqdqqqqq
+south_east
+Hadamard's Distillation (vector, vector → vector)
+https://sonunte.github.io/HexKinetics/#patterns/math_actions@hexkinetics:hadamard/const
+awaqawa
+west
+Imprecision Purification (num/vec → num/vec)
+https://sonunte.github.io/HexKinetics/#patterns/math_actions@hexkinetics:round/const
+aadeeaa
+south_east
+Sphere Distillation (vec, num → list)
+https://sonunte.github.io/HexKinetics/#patterns/math_actions@hexkinetics:get_vec/const
+qqqqqeddedq
+south_east
+Span Distillation (vector, vector → list)
+https://sonunte.github.io/HexKinetics/#patterns/math_actions@hexkinetics:get_vec_from/const
+qaqeeqaq
+west
+Alidade's Purification II (entity → vector)
+https://sonunte.github.io/HexKinetics/#patterns/actions@hexkinetics:direction/const
+waa
+east
+Sniper's Distillation (vector, vector → vector)
+https://sonunte.github.io/HexKinetics/#patterns/actions@hexkinetics:pixel/raycast
+weqaqded
+east
+Inertia Purification (entity → bool)
+https://sonunte.github.io/HexKinetics/#patterns/actions@hexkinetics:is_gravity/const
+daad
+east
+Visibility Distillation (entity, vector → bool)
+https://sonunte.github.io/HexKinetics/#patterns/actions@hexkinetics:visibility/const
+aqadwawaw
+north_west
+Vehicle Purification (entity → entity)
+https://sonunte.github.io/HexKinetics/#patterns/actions@hexkinetics:get_vehicle/const
+qqdeewee
+south_east
+Jockey Purification (entity → entity)
+https://sonunte.github.io/HexKinetics/#patterns/actions@hexkinetics:get_rider/const
+qqdeeaedeaee
+south_east
+Shooter Purification (entity → entity)
+https://sonunte.github.io/HexKinetics/#patterns/actions@hexkinetics:get_shooter/const
+aadedade
+east
+Lesser Teleport (entity, vec/num →)
+https://sonunte.github.io/HexKinetics/#patterns/spells/spells@hexkinetics:lesser_teleport/spell
+edqdewqaeaq
+north_east
+Momentum Swap (entity, entity →)
+https://sonunte.github.io/HexKinetics/#patterns/spells/spells@hexkinetics:swap/spell
+adaadaqedaddad
+south_west
+Place Projectile (vector →)
+https://sonunte.github.io/HexKinetics/#patterns/spells/spells@hexkinetics:projectile/spell
+weeeweede
+south_east
+Rotate (entity, vec →)
+https://sonunte.github.io/HexKinetics/#patterns/spells/rotate_spells@hexkinetics:rotate/spell
+qqqadeeed
+east
+Rotate II (entity, vec →)
+https://sonunte.github.io/HexKinetics/#patterns/spells/rotate_spells@hexkinetics:rotate_two/spell
+eeedaqqqa
+west
+Rotate: Block (vector, vector →)
+https://sonunte.github.io/HexKinetics/#patterns/spells/rotate_spells@hexkinetics:rotate_block/spell
+qqqqqaqqqwadeeed
+south_east
+Greater Translocation (vector, vector →)
+https://sonunte.github.io/HexKinetics/#patterns/great_spells/greater_translocation@hexkinetics:move_block/spell
+eeqeeqeeeqeeqdeeqeqqwqqqeeqeqqwqq
+south_east
+Twokai's Ideal Condition (entity, number →)
+https://sonunte.github.io/HexKinetics/#patterns/great_spells/great_spells@hexkinetics:zero_g/spell
+wwqqqwadaadawqqqww
+south_west
+Propulsion (entity, number, vector →)
+https://sonunte.github.io/HexKinetics/#patterns/great_spells/great_spells@hexkinetics:fast/spell
+wqeqaaeeeweeeaaqeqqaaq
+south_west

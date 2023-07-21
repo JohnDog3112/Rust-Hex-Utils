@@ -1,0 +1,356 @@
+Phase Block (vec, num →)
+https://talia-12.github.io/Hexal/#interop/fabric_only_hexal@hexal:interop/fabric_only/phase_block
+daqqqa
+west
+Timekeeper's Reflection (→ number)
+https://talia-12.github.io/Hexal/#patterns/hexal_basics@hexal:current_tick
+ddwaa
+north_west
+Thanatos' Reflection (→ number)
+https://talia-12.github.io/Hexal/#patterns/hexal_basics@hexal:remaining_evals
+qqaed
+south_east
+Diver's Purification (entity → num)
+https://talia-12.github.io/Hexal/#patterns/hexal_basics@hexal:breath
+aqawdwaqawd
+north_west
+Nurse's Purification (entity → num)
+https://talia-12.github.io/Hexal/#patterns/hexal_basics@hexal:health
+aqwawqa
+north_west
+Squire's Purification (entity → num)
+https://talia-12.github.io/Hexal/#patterns/hexal_basics@hexal:armour
+wqqqqw
+north_west
+Boxer's Purification (entity → num)
+https://talia-12.github.io/Hexal/#patterns/hexal_basics@hexal:toughness
+aeqqqqea
+east
+Lamplighter's Purification (vec → num)
+https://talia-12.github.io/Hexal/#patterns/hexal_basics@hexal:light_level
+qedqde
+north_east
+Factorial Purification (num → num)
+https://talia-12.github.io/Hexal/#patterns/hexal_maths@hexal:factorial
+wawdedwaw
+south_east
+Running Sum Purification ([num] → [num])
+https://talia-12.github.io/Hexal/#patterns/hexal_maths@hexal:running/sum
+aea
+west
+Running Product Purification ([num] → [num])
+https://talia-12.github.io/Hexal/#patterns/hexal_maths@hexal:running/mul
+qaawaaq
+north_east
+Classifier's Purification (any → iotatype)
+https://talia-12.github.io/Hexal/#patterns/types@hexal:type/iota
+awd
+south_west
+Physician's Purification (entity → entitytype)
+https://talia-12.github.io/Hexal/#patterns/types@hexal:type/entity
+qawde
+south_west
+Sorter's Purification (itemtypable → itemtype)
+https://talia-12.github.io/Hexal/#patterns/types@hexal:type/block_item
+qaqqaea
+east
+Sorter's Reflection (→ itemtype)
+https://talia-12.github.io/Hexal/#patterns/types@hexal:type/item_held
+edeedqd
+south_west
+Entity Distillation: Type (entitytype, pos → entity | null)
+https://talia-12.github.io/Hexal/#patterns/types@hexal:get_entity/type
+dadqqqqqdad
+north_east
+Zone Exaltation: Type (entitytype, pos, num → [entity])
+https://talia-12.github.io/Hexal/#patterns/types@hexal:zone_entity/type
+waweeeeewaw
+south_east
+Zone Exaltation: Not-Type (entitytype, pos, num → [entity])
+https://talia-12.github.io/Hexal/#patterns/types@hexal:zone_entity/not_type
+wdwqqqqqwdw
+north_east
+Mnemosyne's Gambit (vector, pattern →)
+https://talia-12.github.io/Hexal/#patterns/everbook@hexal:everbook/read
+eweeewedqdeddw
+north_east
+Elysium's Gambit (vector, pattern →)
+https://talia-12.github.io/Hexal/#patterns/everbook@hexal:everbook/write
+qwqqqwqaeaqaaw
+south_east
+Lethe's Gambit (pattern →)
+https://talia-12.github.io/Hexal/#patterns/everbook@hexal:everbook/delete
+qwqqqwqaww
+south_east
+Brigh's Gambit (pattern →)
+https://talia-12.github.io/Hexal/#patterns/everbook@hexal:everbook/toggle_macro
+eweeewedww
+south_west
+Smelt (vec | entity | mote →)
+https://talia-12.github.io/Hexal/#patterns/spells/hexal_spells@hexal:smelt
+wqqqwqqadad
+east
+Freeze (vec →)
+https://talia-12.github.io/Hexal/#patterns/spells/hexal_spells@hexal:freeze
+weeeweedada
+west
+Falling Block (vec →)
+https://talia-12.github.io/Hexal/#patterns/spells/hexal_spells@hexal:falling_block
+wqwawqwqwqwqwqw
+east
+Place Block II ((itemtype | mote), vec →)
+https://talia-12.github.io/Hexal/#patterns/spells/hexal_spells@hexal:place_type
+eeeeedeeeee
+west
+Particles (vec | [vec] →)
+https://talia-12.github.io/Hexal/#patterns/spells/hexal_spells@hexal:particles
+eqqqqa
+north_east
+Summon Projectile Wisp ([pattern], vec, vec, number →)
+https://talia-12.github.io/Hexal/#patterns/spells/wisps@hexal:wisp/summon/projectile
+aqaeqeeeee
+north_west
+Summon Cyclic Wisp ([pattern], vec, number →)
+https://talia-12.github.io/Hexal/#patterns/spells/wisps@hexal:wisp/summon/ticking
+aqaweewaqawee
+north_west
+Identity Reflection (→ entity)
+https://talia-12.github.io/Hexal/#patterns/spells/wisps@hexal:wisp/self
+dedwqqwdedwqqaw
+north_east
+Reservoir Reflection (→ num)
+https://talia-12.github.io/Hexal/#patterns/spells/wisps@hexal:wisp/media
+aqaweewaqaweedw
+north_west
+Manager's Purification (entity → [pattern])
+https://talia-12.github.io/Hexal/#patterns/spells/wisps@hexal:wisp/hex
+aweewaqaweewaawww
+south_east
+Allegiance Distillation (entity, entity → bool)
+https://talia-12.github.io/Hexal/#patterns/spells/wisps@hexal:wisp/owner
+dwqqwdedwqqwddwww
+south_west
+Pathfinder's Gambit (vec →)
+https://talia-12.github.io/Hexal/#patterns/spells/wisps@hexal:wisp/move/target/set
+awqwawqaw
+west
+Pathfinder's Reflection (→ vec)
+https://talia-12.github.io/Hexal/#patterns/spells/wisps@hexal:wisp/move/target/get
+ewdwewdew
+east
+Haste (num →)
+https://talia-12.github.io/Hexal/#patterns/spells/wisps@hexal:wisp/move/speed/set
+aeawqqqae
+west
+Speedometer's Reflection (→ num)
+https://talia-12.github.io/Hexal/#patterns/spells/wisps@hexal:wisp/move/speed/get
+eeewdqdee
+east
+Allow Transfer (num →)
+https://talia-12.github.io/Hexal/#patterns/spells/wisps@hexal:wisp/transfer/allow
+qqqqqewwqeeeee
+north_west
+Disallow Transfer (num →)
+https://talia-12.github.io/Hexal/#patterns/spells/wisps@hexal:wisp/transfer/disallow
+qqqqqeqdeddweqqqqq
+north_west
+Allow Transfer Others (wisp, num →)
+https://talia-12.github.io/Hexal/#patterns/spells/wisps@hexal:wisp/transfer/others/allow
+eeeeeqwweqqqqq
+south_west
+Disallow Transfer Others (wisp, num →)
+https://talia-12.github.io/Hexal/#patterns/spells/wisps@hexal:wisp/transfer/others/disallow
+eeeeeqeaqaawqeeeee
+south_west
+Entity Purification: Wisp (vec → entity | null)
+https://talia-12.github.io/Hexal/#patterns/spells/wisps@hexal:get_entity/wisp
+qqwdedwqqdaqaaww
+south_east
+Zone Distillation: Wisp (vec, num → [entity])
+https://talia-12.github.io/Hexal/#patterns/spells/wisps@hexal:zone_entity/wisp
+qqwdedwqqwdeddww
+south_east
+Zone Distillation: Non-Wisp (vec, num → [entity])
+https://talia-12.github.io/Hexal/#patterns/spells/wisps@hexal:zone_entity/not_wisp
+eewaqaweewaqaaww
+north_east
+Delay Wisp (number →)
+https://talia-12.github.io/Hexal/#patterns/spells/wisps@hexal:wisp/trigger/tick
+aqawded
+north_west
+Listen
+https://talia-12.github.io/Hexal/#patterns/spells/wisps@hexal:wisp/trigger/comm
+aqqqqqwdeddw
+east
+Wander
+https://talia-12.github.io/Hexal/#patterns/spells/wisps@hexal:wisp/trigger/move
+eqwawqwaqww
+east
+Link (linkable →)
+https://talia-12.github.io/Hexal/#patterns/spells/links@hexal:link
+eaqaaeqqqqqaweaqaaw
+east
+Link Others (linkable, linkable →)
+https://talia-12.github.io/Hexal/#patterns/spells/links@hexal:link/others
+eqqqqqawqeeeeedww
+east
+Unlink (num →)
+https://talia-12.github.io/Hexal/#patterns/spells/links@hexal:link/unlink
+qdeddqeeeeedwqdeddw
+west
+Unlink Others (linkable, linkable →)
+https://talia-12.github.io/Hexal/#patterns/spells/links@hexal:link/unlink/others
+qeeeeedweqqqqqaww
+west
+Phonebook Purification (num → linkable)
+https://talia-12.github.io/Hexal/#patterns/spells/links@hexal:link/get
+eqqqqqaww
+east
+Recognition Purification (linkable → num)
+https://talia-12.github.io/Hexal/#patterns/spells/links@hexal:link/get_index
+aeqqqqqawwd
+south_west
+Popularity Reflection (→ num)
+https://talia-12.github.io/Hexal/#patterns/spells/links@hexal:link/num
+qeeeeedww
+west
+Send Iota (num, any →)
+https://talia-12.github.io/Hexal/#patterns/spells/links@hexal:link/comm/send
+qqqqqwdeddw
+north_west
+Recitation Reflection (→ any)
+https://talia-12.github.io/Hexal/#patterns/spells/links@hexal:link/comm/read
+weeeeew
+north_east
+Postmaster's Reflection (→ num)
+https://talia-12.github.io/Hexal/#patterns/spells/links@hexal:link/comm/num
+aweeeeewaa
+south_east
+Unclogging Gambit
+https://talia-12.github.io/Hexal/#patterns/spells/links@hexal:link/comm/clear
+aweeeeewa
+south_east
+Open Transmit (num →)
+https://talia-12.github.io/Hexal/#patterns/spells/links@hexal:link/comm/open_transmit
+qwdedwq
+west
+Close Transmit
+https://talia-12.github.io/Hexal/#patterns/spells/links@hexal:link/comm/close_transmit
+ewaqawe
+east
+Bind Storage (vec →)
+https://talia-12.github.io/Hexal/#patterns/spells/motes@hexal:mote/storage/bind
+qaqwqaqwqaq
+north_west
+Bind Storage - Temporary (vec →)
+https://talia-12.github.io/Hexal/#patterns/spells/motes@hexal:mote/storage/bind/temp
+edewedewede
+north_east
+Stocktake Reflection (→ [itemtype])
+https://talia-12.github.io/Hexal/#patterns/spells/motes@hexal:mote/contained_type/get
+dwqqqqqwddww
+north_east
+Stocktake Purification (mote | itemtype → [mote])
+https://talia-12.github.io/Hexal/#patterns/spells/motes@hexal:mote/contained/get
+aweeeeewaaww
+south_east
+Capacity Reflection (→ int)
+https://talia-12.github.io/Hexal/#patterns/spells/motes@hexal:mote/storage/remaining_capacity/get
+awedqdewa
+south_east
+Containment Distillation (vec, (itemtype | mote) → bool)
+https://talia-12.github.io/Hexal/#patterns/spells/motes@hexal:mote/storage/contains
+dwqaeaqwd
+north_east
+Mediafy Item (item | item, mote → mote)
+https://talia-12.github.io/Hexal/#patterns/spells/motes@hexal:mote/make
+eaqa
+west
+Return Item (mote, vec | mote, vec, num →)
+https://talia-12.github.io/Hexal/#patterns/spells/motes@hexal:mote/return
+qded
+east
+Weighing Purification (mote → int)
+https://talia-12.github.io/Hexal/#patterns/spells/motes@hexal:mote/count/get
+qqqqwqqqqqaa
+north_west
+Stacking Distillation (mote, mote → mote)
+https://talia-12.github.io/Hexal/#patterns/spells/motes@hexal:mote/combine
+aqaeqded
+north_west
+Stacking Distillation II (mote, (mote | item) → bool)
+https://talia-12.github.io/Hexal/#patterns/spells/motes@hexal:mote/combinable
+dedqeaqa
+south_west
+Splitting Gambit (mote, int → mote, mote)
+https://talia-12.github.io/Hexal/#patterns/spells/motes@hexal:mote/split
+eaqaaw
+east
+Depot Purification (mote → vec)
+https://talia-12.github.io/Hexal/#patterns/spells/motes@hexal:mote/storage/get
+qqqqqaw
+south_west
+Depot Gambit (mote, vec → mote)
+https://talia-12.github.io/Hexal/#patterns/spells/motes@hexal:mote/storage/set
+eeeeedw
+south_east
+Craft (mote | [mote] | [[mote]] → [mote])
+https://talia-12.github.io/Hexal/#patterns/spells/motes@hexal:mote/craft
+wwawdedwawdewwdwaqawdwwedwawdedwaww
+south_east
+Seniority Purification (villager → int)
+https://talia-12.github.io/Hexal/#patterns/spells/motes@hexal:mote/villager/level/get
+qqwdedwqqaww
+north_west
+Offering Purification (villager → [complicated!])
+https://talia-12.github.io/Hexal/#patterns/spells/motes@hexal:mote/trade/get
+awdedwaawwqded
+south_east
+Trade (villager, [mote], int? → item)
+https://talia-12.github.io/Hexal/#patterns/spells/motes@hexal:mote/trade
+awdedwaeqded
+north_west
+Use Item On (mote, (entity | vec, vec) →)
+https://talia-12.github.io/Hexal/#patterns/spells/motes@hexal:mote/use_on
+qqqwqqqqaa
+east
+Accelerate (vec →)
+https://talia-12.github.io/Hexal/#patterns/great_spells/tick@hexal:tick
+wwwdwdwwwawqqeqwqqwqeqwqq
+south_east
+Consume Wisp (entity →)
+https://talia-12.github.io/Hexal/#patterns/great_spells/great_wisps@hexal:wisp/consume
+wawqwawwwewwwewwwawqwawwwewwwewdeaweewaqaweewaawwww
+north_west
+Bind Wisp (entity →)
+https://talia-12.github.io/Hexal/#patterns/great_spells/great_wisps@hexal:wisp/seon/set
+aqweewqaeaqweewqaqwww
+south_west
+Familiar's Reflection (→ entity | null)
+https://talia-12.github.io/Hexal/#patterns/great_spells/great_wisps@hexal:wisp/seon/get
+daqweewqaeaqweewqaqwwww
+east
+Gate's Reflection (null | vec | vec, entity → gate)
+https://talia-12.github.io/Hexal/#patterns/great_spells/gates@hexal:gate/make
+qwqwqwqwqwqqeaeaeaeaeae
+west
+Gate's Opening (gate, entity →)
+https://talia-12.github.io/Hexal/#patterns/great_spells/gates@hexal:gate/mark
+qaqeede
+west
+Gate's Dismissal (gate, entity →)
+https://talia-12.github.io/Hexal/#patterns/great_spells/gates@hexal:gate/unmark
+edeqqaq
+east
+Marked Purification (gate → num)
+https://talia-12.github.io/Hexal/#patterns/great_spells/gates@hexal:gate/mark/num/get
+qawwaqqqaq
+west
+Marked Distillation (gate, entity → bool)
+https://talia-12.github.io/Hexal/#patterns/great_spells/gates@hexal:gate/mark/get
+edwwdeeede
+east
+Gate's Closing (gate | gate, vec →)
+https://talia-12.github.io/Hexal/#patterns/great_spells/gates@hexal:gate/close
+qqqwwqqqwqqawdedw
+west

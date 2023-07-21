@@ -1,5 +1,9 @@
 [workspace]
 
 members = [
-    "hex_renderer"
+    "hex_renderer",
+    "hex_decoder",
+    "hex_gui",
+    "markdown_generator",
+    "game_compat"
 ]
