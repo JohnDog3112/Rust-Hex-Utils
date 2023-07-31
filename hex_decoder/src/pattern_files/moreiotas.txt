@@ -2,139 +2,174 @@ Transformation Purification (num | vec | list → mat)
 https://talia-12.github.io/MoreIotas/#patterns/matrices@moreiotas:matrix/make
 awwaeawwaadwa
 south_west
+false
 Restoration Purification (mat → num | vec | list)
 https://talia-12.github.io/MoreIotas/#patterns/matrices@moreiotas:matrix/unmake
 dwwdqdwwddawd
 south_east
+false
 Identity Purification (int ≥ 0 → mat)
 https://talia-12.github.io/MoreIotas/#patterns/matrices@moreiotas:matrix/identity
 awwaeawwaqw
 south_west
+false
 Zero Distillation (int ≥ 0, int ≥ 0 → mat)
 https://talia-12.github.io/MoreIotas/#patterns/matrices@moreiotas:matrix/zero
 awwaeawwa
 south_west
+false
 Rotation Distillation (vec, num → mat)
 https://talia-12.github.io/MoreIotas/#patterns/matrices@moreiotas:matrix/rotation
 awwaeawwawawddw
 south_west
+false
 Addition Distillation: Matrix (mat, mat → mat)
 https://talia-12.github.io/MoreIotas/#patterns/matrices@moreiotas:matrix/add
 waawawaeawwaea
 east
+false
 Multiplication Distillation: Matrix (mat, mat → mat)
 https://talia-12.github.io/MoreIotas/#patterns/matrices@moreiotas:matrix/mul
 waqawawwaeaww
 south_east
+false
 Transpose Purification (mat → mat)
 https://talia-12.github.io/MoreIotas/#patterns/matrices@moreiotas:matrix/transpose
 wwaeawwaede
 east
+false
 Inverse Purification (mat → mat)
 https://talia-12.github.io/MoreIotas/#patterns/matrices@moreiotas:matrix/inverse
 wwdqdwwdqaq
 west
+false
 Determinant Purification (mat → num)
 https://talia-12.github.io/MoreIotas/#patterns/matrices@moreiotas:matrix/determinant
 aeawwaeawaw
 west
+false
 Tower Distillation (mat, mat → mat)
 https://talia-12.github.io/MoreIotas/#patterns/matrices@moreiotas:matrix/concat/vert
 awwaeawwawawdedwa
 south_west
+false
 Sprawling Distillation (mat, mat → mat)
 https://talia-12.github.io/MoreIotas/#patterns/matrices@moreiotas:matrix/concat/hori
 dwwdqdwwdwdwaqawd
 south_east
+false
 Toppling Gambit (mat, num → mat, mat)
 https://talia-12.github.io/MoreIotas/#patterns/matrices@moreiotas:matrix/split/vert
 awdedwawawwaeawwa
 south_east
+false
 Mitosis Gambit (mat, num → mat, mat)
 https://talia-12.github.io/MoreIotas/#patterns/matrices@moreiotas:matrix/split/hori
 dwaqawdwdwwdqdwwd
 south_west
+false
 Concatenation Distillation (str, str → str)
 https://talia-12.github.io/MoreIotas/#patterns/strings@moreiotas:string/add
 waawaqwawqq
 north_east
+false
 Separation Distillation (str, str → [str])
 https://talia-12.github.io/MoreIotas/#patterns/strings@moreiotas:string/split
 aqwaqa
 east
+false
 Input Purification (str → num | null)
 https://talia-12.github.io/MoreIotas/#patterns/strings@moreiotas:string/parse
 aqwaq
 east
+false
 Discoverer's Distillation (str, str → num)
 https://talia-12.github.io/MoreIotas/#patterns/strings@moreiotas:string/find
 waqwwaqa
 east
+false
 Winnowing Distillation (str, num, num → str)
 https://talia-12.github.io/MoreIotas/#patterns/strings@moreiotas:string/sub
 aqwwaqwaad
 east
+false
 Length Distillation: Str (str → num)
 https://talia-12.github.io/MoreIotas/#patterns/strings@moreiotas:string/len
 waqaeaq
 east
+false
 Blank Reflection (→ str)
 https://talia-12.github.io/MoreIotas/#patterns/strings@moreiotas:string/empty
 awdwa
 south_east
+false
 Spacing Reflection (→ str)
 https://talia-12.github.io/MoreIotas/#patterns/strings@moreiotas:string/space
 awdwaaww
 south_east
+false
 Comma Reflection (→ str)
 https://talia-12.github.io/MoreIotas/#patterns/strings@moreiotas:string/comma
 qa
 east
+false
 Breaking Reflection (→ str)
 https://talia-12.github.io/MoreIotas/#patterns/strings@moreiotas:string/newline
 waawaw
 east
+false
 Whisper Reflection (→ str)
 https://talia-12.github.io/MoreIotas/#patterns/strings@moreiotas:string/chat/caster
 waqa
 east
+false
 Listener's Reflection (→ str)
 https://talia-12.github.io/MoreIotas/#patterns/strings@moreiotas:string/chat/all
 wded
 east
+false
 Sifter's Gambit (str | null →)
 https://talia-12.github.io/MoreIotas/#patterns/strings@moreiotas:string/chat/prefix/set
 qwaqa
 south_east
+false
 Sifter's Reflection (→ str | null)
 https://talia-12.github.io/MoreIotas/#patterns/strings@moreiotas:string/chat/prefix/get
 ewded
 north_east
+false
 Reader's Purification (vec → str | [str])
 https://talia-12.github.io/MoreIotas/#patterns/strings@moreiotas:string/block/get
 awqwawqe
 east
+false
 Write (vec, str | [str] →)
 https://talia-12.github.io/MoreIotas/#patterns/strings@moreiotas:string/block/set
 dwewdweq
 west
+false
 Scrivener's Purification (any → str)
 https://talia-12.github.io/MoreIotas/#patterns/strings@moreiotas:string/iota
 wawqwawaw
 east
+false
 Patternmaster's Purification (pattern → str | null)
 https://talia-12.github.io/MoreIotas/#patterns/strings@moreiotas:string/action
 wdwewdwdw
 north_west
+false
 Moniker Purification (entity → str)
 https://talia-12.github.io/MoreIotas/#patterns/strings@moreiotas:string/name/get
 deqqeddqwqqqwq
 south_east
+false
 Name (str, entity →)
 https://talia-12.github.io/MoreIotas/#patterns/strings@moreiotas:string/name/set
 aqeeqaaeweeewe
 south_west
+false
 Case Distillation (str, bool | null → str)
 https://talia-12.github.io/MoreIotas/#patterns/strings@moreiotas:string/case
 dwwdwwdwdd
 west
+false

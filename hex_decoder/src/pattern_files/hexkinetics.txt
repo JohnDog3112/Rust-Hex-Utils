@@ -2,83 +2,104 @@ Optician's Distillation (vector, vector → vector)
 https://sonunte.github.io/HexKinetics/#patterns/math_actions@hexkinetics:reflection/const
 qqqqqdqqqqq
 south_east
+false
 Hadamard's Distillation (vector, vector → vector)
 https://sonunte.github.io/HexKinetics/#patterns/math_actions@hexkinetics:hadamard/const
 awaqawa
 west
+false
 Imprecision Purification (num/vec → num/vec)
 https://sonunte.github.io/HexKinetics/#patterns/math_actions@hexkinetics:round/const
 aadeeaa
 south_east
+false
 Sphere Distillation (vec, num → list)
 https://sonunte.github.io/HexKinetics/#patterns/math_actions@hexkinetics:get_vec/const
 qqqqqeddedq
 south_east
+false
 Span Distillation (vector, vector → list)
 https://sonunte.github.io/HexKinetics/#patterns/math_actions@hexkinetics:get_vec_from/const
 qaqeeqaq
 west
+false
 Alidade's Purification II (entity → vector)
 https://sonunte.github.io/HexKinetics/#patterns/actions@hexkinetics:direction/const
 waa
 east
+false
 Sniper's Distillation (vector, vector → vector)
 https://sonunte.github.io/HexKinetics/#patterns/actions@hexkinetics:pixel/raycast
 weqaqded
 east
+false
 Inertia Purification (entity → bool)
 https://sonunte.github.io/HexKinetics/#patterns/actions@hexkinetics:is_gravity/const
 daad
 east
+false
 Visibility Distillation (entity, vector → bool)
 https://sonunte.github.io/HexKinetics/#patterns/actions@hexkinetics:visibility/const
 aqadwawaw
 north_west
+false
 Vehicle Purification (entity → entity)
 https://sonunte.github.io/HexKinetics/#patterns/actions@hexkinetics:get_vehicle/const
 qqdeewee
 south_east
+false
 Jockey Purification (entity → entity)
 https://sonunte.github.io/HexKinetics/#patterns/actions@hexkinetics:get_rider/const
 qqdeeaedeaee
 south_east
+false
 Shooter Purification (entity → entity)
 https://sonunte.github.io/HexKinetics/#patterns/actions@hexkinetics:get_shooter/const
 aadedade
 east
+false
 Lesser Teleport (entity, vec/num →)
 https://sonunte.github.io/HexKinetics/#patterns/spells/spells@hexkinetics:lesser_teleport/spell
 edqdewqaeaq
 north_east
+false
 Momentum Swap (entity, entity →)
 https://sonunte.github.io/HexKinetics/#patterns/spells/spells@hexkinetics:swap/spell
 adaadaqedaddad
 south_west
+false
 Place Projectile (vector →)
 https://sonunte.github.io/HexKinetics/#patterns/spells/spells@hexkinetics:projectile/spell
 weeeweede
 south_east
+false
 Rotate (entity, vec →)
 https://sonunte.github.io/HexKinetics/#patterns/spells/rotate_spells@hexkinetics:rotate/spell
 qqqadeeed
 east
+false
 Rotate II (entity, vec →)
 https://sonunte.github.io/HexKinetics/#patterns/spells/rotate_spells@hexkinetics:rotate_two/spell
 eeedaqqqa
 west
+false
 Rotate: Block (vector, vector →)
 https://sonunte.github.io/HexKinetics/#patterns/spells/rotate_spells@hexkinetics:rotate_block/spell
 qqqqqaqqqwadeeed
 south_east
+false
 Greater Translocation (vector, vector →)
 https://sonunte.github.io/HexKinetics/#patterns/great_spells/greater_translocation@hexkinetics:move_block/spell
 eeqeeqeeeqeeqdeeqeqqwqqqeeqeqqwqq
 south_east
+false
 Twokai's Ideal Condition (entity, number →)
 https://sonunte.github.io/HexKinetics/#patterns/great_spells/great_spells@hexkinetics:zero_g/spell
 wwqqqwadaadawqqqww
 south_west
+false
 Propulsion (entity, number, vector →)
 https://sonunte.github.io/HexKinetics/#patterns/great_spells/great_spells@hexkinetics:fast/spell
 wqeqaaeeeweeeaaqeqqaaq
 south_west
+false
