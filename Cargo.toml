@@ -3,6 +3,7 @@ resolver = "2"
 
 members = [
     "hex_renderer",
+    "hex_renderer_cli",
     "hex_decoder",
     "markdown_generator",
     "game_compat"
