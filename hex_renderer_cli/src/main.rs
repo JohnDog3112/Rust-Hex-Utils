@@ -96,8 +96,7 @@ fn main() {
 
     let file_name = cli.file_name.unwrap_or("HexPatterns.png".to_string());
 
-    let grid: Box<dyn GridDraw>;
-    if cli.grid_type.square {
+    let grid: Box<dyn GridDraw> = if cli.grid_type.square {
         let args = cli.square_args;
         let square_grid = SquareGrid::new_normal(
             patterns,
@@ -108,10 +107,10 @@ fn main() {
         )
         .unwrap();
 
-        grid = Box::new(square_grid);
+        Box::new(square_grid)
     } else {
-        grid = Box::new(HexGrid::new_normal(patterns, cli.max_width.unwrap_or(50)).unwrap());
-    }
+        Box::new(HexGrid::new_normal(patterns, cli.max_width.unwrap_or(50)).unwrap())
+    };
 
     let scale;
     if let Some(sc) = cli.size.scale {
@@ -170,7 +169,7 @@ fn not_zero(s: &str) -> Result<usize, String> {
     if val != 0 {
         Ok(val)
     } else {
-        Err(format!("Value can't be zero!"))
+        Err("Value can't be zero!".to_string())
     }
 }
 
